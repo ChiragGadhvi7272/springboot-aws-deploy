@@ -16,4 +16,9 @@ public class TestController {
     public String getMessage(){
         return "Second Message from AWS ECS";
     }
+
+    @GetMapping("/gojo")
+    public String getGojo(){
+        return "Daijobu Boku Wa Saikyo Dakara";
+    }
 }
